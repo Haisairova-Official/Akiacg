@@ -303,6 +303,7 @@ a:focus-visible {
 
   .hero h1 { font-size: clamp(2.6rem, 10vw, 4.5rem); }
   .hero-description { margin-block: .9rem 1.3rem; }
+  .mobile-break { display: inline; }
 
   .moon-scene {
     inset: 0 0 auto;
@@ -321,6 +322,3 @@ a:focus-visible {
   .site-link { padding-block: 1.15rem; }
 }
 
-@media (max-width: 24rem) {
-  .mobile-break { display: inline; }
-}
